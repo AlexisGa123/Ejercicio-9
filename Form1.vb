@@ -9,7 +9,7 @@
             TextBox2.Text = promedio
             TextBox1.Clear()
         Else
+            Button1.Enabled = False
         End If
-        Button1.Enabled = False
     End Sub
 End Class
